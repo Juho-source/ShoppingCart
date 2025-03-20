@@ -4,7 +4,7 @@ pipeline {
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub_ID_jenkins'
             // Define Docker Hub repository name
-            DOCKERHUB_REPO = 'juhosource/Inclass_20.3'
+            DOCKERHUB_REPO = 'juhosource/inclass203'
             // Define Docker image tag
             DOCKER_IMAGE_TAG = 'latest_v1'
         }
