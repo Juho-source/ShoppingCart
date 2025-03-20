@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', 'https://github.com/Juho-source/ShoppingCart.git'
+                git branch: 'main', url: 'https://github.com/Juho-source/ShoppingCart.git'
             }
         }
         stage('Build') {
